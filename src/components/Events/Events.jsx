@@ -15,7 +15,7 @@ const Events = () => {
     const registration_URL = useState(Events.registration_URL);
     return ( 
         <>
-        <div className="Event">
+        <div  className="Event">
         <div className="cards">
               <ul class="cards">
           {Events.map((Events) => (

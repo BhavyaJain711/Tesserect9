@@ -46,10 +46,10 @@ const PopUp = (props) => {
       ]
 
   return (
-    <div id="gallery" className='text-center m-3 popWrapper' style={{display:"relative"}}>
+    <div  className='text-center m-3 popWrapper' style={{display:"relative"}}>
         <Button className="m-auto p-3 " size='s' onClick={openModal} style={{fontSize:"1.5rem",backgroundColor:'#406882',borderColor:'#B1D1E0'}}>Enter Tessaract Gallery Room</Button>
 
-        {modal?<div className='text-center' style={{backgroundColor:"rgba(255,255,255,0.2)",  Color: 'yellow', width: '100vw',minHeight:"100vh", height: 'fit-content', zIndex: "10",padding:"25px",transform:"translate(0,-25%)"}} >
+        {modal?<div className='text-center' style={{backgroundColor:"rgba(255,255,255,0.5)",  Color: 'yellow', width: '100vw',minHeight:"100vh", height: 'fit-content', zIndex: "10",padding:"25px",transform:"translate(0,-25%)"}} >
         
         <Gallery
         galleryImages={galleryImages}
