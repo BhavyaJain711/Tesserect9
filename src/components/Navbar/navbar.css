@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300;400;500;600;700&display=swap');
 :root{
-    --bgColor:#406882;
-    --textColor:#B1D1E0;
+    --bgColor:#F58840;
+    --textColor:#EADEDE;
 
 }
 .logo{
@@ -66,7 +66,7 @@
     background-color: black;
     opacity: 100%;
     transition: 0.5s;
-    color: goldenrod;
+    color: red;
 }
 @media (min-width:550px ) and (max-width:980px){
 
@@ -98,7 +98,7 @@
     cursor: pointer;
 }
 .nav-menu li a:hover{
-    color: rgb(255, 153, 0);
+    color: red;
     transition-duration: 500ms;
 }
  .hamburger.active .bar:nth-child(2) {

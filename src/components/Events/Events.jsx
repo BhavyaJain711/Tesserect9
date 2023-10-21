@@ -17,20 +17,20 @@ const Events = () => {
         <>
         <div  className="Event">
         <div className="cards">
-              <ul class="cards">
+              <ul className="cards">
           {Events.map((Events) => (
-                  <li>
-                    <span href="" class="card">
-                      {/* <img src="https://images.pexels.com/photos/2409038/pexels-photo-2409038.jpeg?auto=compress&cs=tinysrgb&w=600" class="card__image" alt="" /> */}
-                      <img src= {Events.image} class="card__image" alt="" />
-                        <div class="card__overlay">
-                          <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
-                            <div class="card__header-text">
-                              <h3 class="card__Name">{Events.eventName}</h3>  
+                  <li key={Events.image}>
+                    <span href="" className="card">
+                      {/* <img src="https://images.pexels.com/photos/2409038/pexels-photo-2409038.jpeg?auto=compress&cs=tinysrgb&w=600" className="card__image" alt="" /> */}
+                      <img src= {Events.image} className="card__image" alt="" />
+                        <div className="card__overlay">
+                          <div className="card__header">
+                            <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                            <div className="card__header-text">
+                              <h3 className="card__Name">{Events.eventName}</h3>  
                               
-                              <span class="card__Club">{Events.club}</span>          
-                              <span class="card__Time">
+                              <span className="card__Club">{Events.club}</span>          
+                              <span className="card__Time">
                                 {Events.time} : {Events.venue}
                               </span>
                               </div>
@@ -50,7 +50,7 @@ const Events = () => {
           </div> 
           <center>
 
-              <Button onClick={navigateEvents} style={{padding:"10px",marginBottom:"20px",fontSize:"1.5rem"}}  size='lg' variant='dark' >Show all Events...</Button>
+              <Button onClick={navigateEvents} style={{padding:"10px",marginBottom:"20px",fontSize:"1.5rem", backgroundColor:"#F58840",borderColor:'#B1D1E0'}}  size='lg' >Show all Events...</Button>
           </center>
         </>
      );

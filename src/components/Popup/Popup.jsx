@@ -8,53 +8,56 @@ const PopUp = (props) => {
     function openModal() {
       modal===false?setModal(true):setModal(false);
       props.func();
+      const element = document.querySelector("#gallery");
+      element.scrollIntoView({ behavior: "smooth" });
+      
     }
     const galleryImages = [
         {
-          img: 'https://drive.google.com/uc?id=1mOFSx5kTeAkv5dESmJE-B5j-RQQbVU6v'
+          img: 'https://picsum.photos/600/600'
         },
         {
-          img: "https://drive.google.com/uc?id=1XwSEDvfS6B93CJvWGC0UPcdwTr0Mfe4h"
+          img: "https://picsum.photos/500/600"
         },
         {
-          img: "https://drive.google.com/uc?id=1XDmjWJOSPnvcAyNW_0M6icjR3ulZz2gW"
+          img: "https://picsum.photos/600/500"
         },
         {
-          img: "https://drive.google.com/uc?id=1NM-dV4j-ateLsTQMZYqxZkBWde39lKx8"
+          img: "https://picsum.photos/600/600"
         },
         {
-          img: "https://drive.google.com/uc?id=1NPXQzH2eRiUmm18vFpa57k2srkANPCxC"
+          img: "https://picsum.photos/600/600"
         },
         {
-          img: "https://drive.google.com/uc?id=1dB-b18sjj-r48_lDjNt7sSSepfW3FvNP"
+          img: "https://picsum.photos/600/600"
         },
         {
-          img:"https://drive.google.com/uc?id=1KcAIlTcUuM6gb4O-QeOgVzQeu3xlyNgk"
+          img:"https://picsum.photos/600/600"
         },
         {
-          img:"https://drive.google.com/uc?id=1nNVq5Ed5AeVdhRM81yZmDdfaf1MIPeIm"
+          img:"https://picsum.photos/600/600"
         },
         {
-          img:"https://drive.google.com/uc?id=1nqNLujY6AIj-FXbw68YqsCVMcY3S8Yr8"
+          img:"https://picsum.photos/600/600"
         },
         {
-          img:"https://drive.google.com/uc?id=10TEcs-V2NTDcZci0POcz8WyuNzDCYssE"
+          img:"https://picsum.photos/600/600"
         },
         {
-          img:"https://drive.google.com/uc?id=11yEP8YUS0rDGY5Wd94_LHK3luAQSK0GL"
+          img:"https://picsum.photos/600/600"
         }
       ]
 
   return (
     <div  className='text-center m-3 popWrapper' style={{display:"relative"}}>
-        <Button className="m-auto p-3 " size='s' onClick={openModal} style={{fontSize:"1.5rem",backgroundColor:'#406882',borderColor:'#B1D1E0'}}>Enter Tessaract Gallery Room</Button>
+        <Button className="m-auto p-3 " size='s' onClick={openModal} style={{fontSize:"1.5rem",backgroundColor:'#F58840',borderColor:'#B1D1E0'}}>Enter Tessaract Gallery Room</Button>
 
         {modal?<div className='text-center' style={{backgroundColor:"rgba(255,255,255,0.5)",  Color: 'yellow', width: '100vw',minHeight:"100vh", height: 'fit-content', zIndex: "10",padding:"25px",transform:"translate(0,-25%)"}} >
         
         <Gallery
         galleryImages={galleryImages}
       />
-      <Button className="m-3 m-3 p-3 " size='lg' style={{fontSize:"1.5rem",backgroundColor:'#406882',borderColor:'#B1D1E0'}} onClick={openModal}>Return Back to Space</Button>
+      <Button className="m-3 m-3 p-3 " size='lg' style={{fontSize:"1.5rem",backgroundColor:'#F58840',borderColor:'#B1D1E0'}} onClick={openModal}>Return Back</Button>
         </div>:<></>}
     </div>
   )
