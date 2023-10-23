@@ -3,9 +3,11 @@ import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home/Home"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
+import Parallax from "./components/Parallax/Parallax";
 const App = () => {
   return (<>
     <Navbar />
+    <Parallax />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />

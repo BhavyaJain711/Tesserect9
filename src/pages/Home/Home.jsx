@@ -15,9 +15,6 @@ function Home() {
     <>
     {/* <Button onClick={()=>setShowVideo(true)}>Show Video</Button>
     {showLoadingVideo&&(showVideo?<Video />:<VideoConsent />)} */}
-    <div style={{ height: '300vh', width: '90vw', backgroundColor: '#B85252',display:'flex',margin:'0 auto' }}>
-      <h1>Add some scroll effect and then remove me</h1>
-    </div>
   <h1 id="gallery" style={{margin:'4rem'}}>Gallery</h1>
   <PopUp  func={toggleGallery}/>
   <h1 id="events" style={{margin:'4rem'}}>Events</h1>
