@@ -1,0 +1,45 @@
+.sponsorship-container {
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #0ecced;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.sponsorship-title {
+  font-size: 1.5rem;
+  color:white;
+  text-shadow: 2px 1px 5px #0ecced;
+  margin-bottom: 20px;
+  font-family:cursive;
+}
+
+.sponsor-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsor-item {
+  margin: 20px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.sponsor-logo {
+  width: 75px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.sponsor-name {
+  font-family: 'Playfair Display', serif;
+}
+

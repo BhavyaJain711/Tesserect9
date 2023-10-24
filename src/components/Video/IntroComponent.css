@@ -1,0 +1,109 @@
+/* Intro Container */
+.intro-container {
+    /* background: #000; */
+    color: #fff; /* White text */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('background-image.jpg'); /* Optional background image */
+    background-size: cover;
+  }
+  
+  /* Event Logo */
+  .event-logo {
+    width: max(150px,20vw); /* Adjust the size as needed */
+    /* display: ; */
+    animation:
+     /* rotate 8s linear infinite, */
+      fade-in 2s ease-out infinite; /* Slow rotation and fade-in */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: scale(1.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+  }
+  
+  /* Event Name */
+  .event-name {
+    font-family: 'Bangers', cursive; /* Use a cool font */
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for a cool effect */
+  }
+  
+  /* Catchy Line */
+  .catchy-line {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    animation: pulse 2s infinite; /* Pulse animation */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Explore Button */
+  .explore-button {
+    text-align: center;
+    margin: 0 auto ; 
+    background: #ff5733; /* Orange color */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Transition for hover effect */
+    margin-top: 30px;
+  }
+  
+  .explore-button:hover {
+    background: #ff9000; /* Lighter orange on hover */
+    transform: scale(1.05); /* Zoom in on hover */
+  }
+  /* @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+} */
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }

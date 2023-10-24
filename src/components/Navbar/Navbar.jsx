@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className='navbar-main'>
       <div className='logo'>
-        <img src='images/logo.jpg' style={{ width: '110px' }} />
+        <img src='images/logo.png' style={{ width: '110px' }} />
       </div>
       <div className='links'>
         <ul className='nav-menu' ref={navMenuRef}>
@@ -27,7 +27,7 @@ function Navbar() {
           <li className='nav-item'><a href='./#gallery'>Gallery</a></li>
           <li className='nav-item'><a href='./#events'>Events</a></li>
           <li className='nav-item'><a href='#'>Sponsorship</a></li>
-          <li className='nav-item'><a href='./#about'>About</a></li>
+          {/* <li className='nav-item'><a href='./#about'>About</a></li> */}
         </ul>
       </div>
       <div className="hamburger" onClick={ToggleSwitch} ref={hamburgerrRef}>

@@ -76,11 +76,11 @@ const Parallax = () => {
     <div className="sec">
         <div className="content">
           <h2>
-            <span id="text">TESSERACT 9.0</span>
+            <span id="heading">TESSERACT 9.0</span>
           </h2>
           <p>
             <span id="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida dictum fusce ut placerat orci. Nulla aliquet enim tortor at auctor urna. Convallis aenean et tortor at. Id ornare arcu odio ut. Maecenas accumsan lacus vel facilisis volutpat est. Fames ac turpis egestas maecenas pharetra. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. At varius vel pharetra vel turpis nunc. Sapien et ligula ullamcorper malesuada. Elementum curabitur vitae nunc sed velit dignissim. Risus at ultrices mi tempus imperdiet nulla malesuada. Tincidunt arcu non sodales neque sodales ut. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Tellus in metus vulputate eu scelerisque.
+            Tesseract, the annual Science and Technical Fest of PDEU, is one of Gujarat's biggest technical college fests. Tesseract provides a platform for tech nerds from colleges such as Pandit Deendayal Energy University and many others to interact, share and celebrate aspirations, creativity, and innovations. It attracts over 6,000 people each year and gives all the students who attend a platform to network and learn about cutting-edge developments in the areas of science and technology.
             </span>
           </p>
 

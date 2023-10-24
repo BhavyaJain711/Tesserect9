@@ -1,21 +1,45 @@
-import React from 'react'
-import { useEffect } from 'react'
-function Video() {
-    useEffect(() => {
-        window.scrollTo(0, 0)
+import YouTube from "react-youtube";
+const VideoPlayer = (props) => {
+  const videoId = 'rrGMENN1iaY?si=5EWjo9J0W6mCxFJ5'; // Replace with your video ID
 
-      }, [])
-  return (<>
-    <div style={{zIndex:'10',width:'100vw',height:'100vh',position:'relative',top:'0'}}>
-    <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style={{display:"none"}}></iframe>
+  const videoOnReady = (event) => {
+    // Your custom code to run when the video is ready
+    console.log('Video is ready to play.');
 
-    <video width="640" height="360"  controls autoPlay>
-        <source src="http://localhost:5001/video" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    // Play the video when it's ready
+    event.target.playVideo();
+  };
+
+  const videoOnEnd = (event) => {
+    // Your custom code to run when the video ends
+    console.log('Video has ended.');
+    props.clickEvent();
+  };
+
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  const opts = {
+    height: height,
+    width: width,
+    playerVars: {
+      // Add any player variables you need here
+      autoplay: 1,
+      controls: 0,
+    },
+  };
+
+  return (
+    <div>
+      <YouTube
+        style={{ position: 'absolute', top: 0, zIndex: '10000', overflow: 'hidden' }}
+        videoId={videoId}
+        opts={opts}
+        onReady={videoOnReady}
+        onEnd={videoOnEnd}
+      />
     </div>
-  </>
-  )
-}
+  );
+};
 
-export default Video
+export default VideoPlayer;

@@ -1,5 +1,8 @@
 body{
-    background-color: #000000;
+    background-color: #0f0f0f;
+    /* overflow: hidden; */
+    margin:0;
+    padding: 0;
 }
 h1{
     text-align: center;

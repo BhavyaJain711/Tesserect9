@@ -81,7 +81,7 @@ section::before {
 .sec {
 	position: relative;
 	padding: 100px;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 #bg {
@@ -183,4 +183,12 @@ section::before {
 	.sec {
 		padding: 20% 10%;
 	}
+}
+#heading:hover {
+    color: #fff;
+	transform: scale(1.1);
+    text-shadow: 0 0 5px rgba(253,208,23,.5),0 0 25px rgba(253,208,23,.5),0 0 50px rgba(253,208,23,.5),0 0 100px rgba(253,208,23,.5);
+}
+#heading{
+	font-size: 3rem;
 }

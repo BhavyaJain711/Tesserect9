@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300;400;500;600;700&display=swap');
 :root{
-    --bgColor:#F58840;
+    --bgColor:#121212;
     --textColor:#EADEDE;
 
 }
@@ -12,7 +12,7 @@
 .navbar-main{
     font-style: oblique;
     display: flex;
-    gap:32%;
+    /* gap:32%; */
      height: 100px;
      opacity: 100%;
      width: 100%;
@@ -20,6 +20,9 @@
      align-items: center;
     background-color: var(--bgColor);
     z-index: 1000;
+    position: relative;
+    margin:0;
+    border-bottom: 2px solid white;
 }
 .nav-menu {
     background-color: var(--bgColor);
@@ -39,6 +42,8 @@
 .hamburger{
     color: var(--textColor);
     cursor: pointer;
+    position: absolute;
+    right:20px;
 }
 .hamburger .bar{
     margin-top: 5px;
@@ -71,7 +76,7 @@
 @media (min-width:550px ) and (max-width:980px){
 
     .navbar-main{
-        gap: 35%;
+        gap: 25%;
     }
 }
 
