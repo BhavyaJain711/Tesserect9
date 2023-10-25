@@ -30,7 +30,7 @@ function VideoConsent(props) {
     <iframe
     style={{position:'absolute',top:'0',left:'0',width:'100vw',height:'100vh',opacity:'1',zIndex:'2147483647',margin:0,overflow:'hidden',filter:'brightness(0.5)'}}
       id="background-video"
-      src="https://www.youtube.com/embed/eej9TCLhwt8?si=zpMg-sO3TzXCdFfK&controls=0&autoplay=1&mute=1&rel=0"
+      src="https://www.youtube.com/embed/eej9TCLhwt8?si=zpMg-sO3TzXCdFfK&controls=0&autoplay=1&mute=1&start=8&rel=0"
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; muted; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

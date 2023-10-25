@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className='navbar-main'>
       <div className='logo'>
-        <img src='images/logo.png' style={{ width: '110px' }} />
+        <img src='images/logo.png' style={{ width: '90px' }} />
       </div>
       <div className='links'>
         <ul className='nav-menu' ref={navMenuRef}>

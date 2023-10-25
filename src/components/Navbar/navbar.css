@@ -1,31 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;300;400;500;600;700&display=swap');
 :root{
-    --bgColor:#121212;
-    --textColor:#EADEDE;
+    --bgColor:rgba(255,255,255,0.2);
+    --textColor:white;
 
 }
 .logo{
-    color: white;
+    /* color: white; */
     font-size: x-large;
     margin-left: 12%;
 }
 .navbar-main{
-    font-style: oblique;
+    /* font-style: oblique; */
     display: flex;
+    position: absolute;
+    top:0;
     /* gap:32%; */
-     height: 100px;
+     height: 90px;
      opacity: 100%;
      width: 100%;
      padding: 0px;
      align-items: center;
     background-color: var(--bgColor);
+    /* background-color: transparent; */
     z-index: 1000;
-    position: relative;
     margin:0;
     border-bottom: 2px solid white;
+    background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    );
 }
 .nav-menu {
-    background-color: var(--bgColor);
+    /* background-color: var(--bgColor); */
+    background-color: transparent;
     right:-140%;
     opacity: 100%;
     color: var(--textColor);
@@ -39,6 +48,7 @@
     transition: 0.4s;
     z-index: 1000;
 }
+
 .hamburger{
     color: var(--textColor);
     cursor: pointer;
@@ -59,6 +69,7 @@
 }
 .nav-item a {
     font-size: 1.5rem;
+
 }
 .nav-menu.active{
     right:0;
@@ -68,7 +79,6 @@
     z-index: 10;
 }
 .nav-menu.active li:hover{
-    background-color: black;
     opacity: 100%;
     transition: 0.5s;
     color: red;
@@ -98,7 +108,8 @@
 } */
 
 .nav-menu li a{
-    color: white;
+    color: var(--textColor);
+    font-weight: 600;
     text-decoration: none;
     cursor: pointer;
 }
