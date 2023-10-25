@@ -22,11 +22,11 @@ function Navbar() {
       </div>
       <div className='links'>
         <ul className='nav-menu' ref={navMenuRef}>
-          <li className='nav-item'><a href="/">Home</a></li>
+          <li className='nav-item' onClick={ToggleSwitch}><a href="/">Home</a></li>
           {/* <li className='nav-item'><a href='#edm'>EDM</a></li> */}
-          <li className='nav-item'><a href='./#gallery'>Gallery</a></li>
-          <li className='nav-item'><a href='./#events'>Events</a></li>
-          <li className='nav-item'><a href='#'>Sponsorship</a></li>
+          <li className='nav-item' onClick={ToggleSwitch}><a href='./#gallery'>Gallery</a></li>
+          <li className='nav-item' onClick={ToggleSwitch}><a href='./#events'>Events</a></li>
+          <li className='nav-item' onClick={ToggleSwitch}><a href='#'>Sponsorship</a></li>
           {/* <li className='nav-item'><a href='./#about'>About</a></li> */}
         </ul>
       </div>
