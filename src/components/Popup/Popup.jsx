@@ -14,37 +14,40 @@ const PopUp = (props) => {
     }
     const galleryImages = [
         {
-          img: 'https://picsum.photos/600/600'
+          img: 'https://drive.google.com/uc?id=1xBbLkGDABEr4KOAI4oWXQhyyh24qd5Ca'
         },
         {
-          img: "https://picsum.photos/500/600"
+          img: "https://drive.google.com/uc?id=1vVFs8wwORcm4BX9lv2gqBsqTGT8ayLqH"
         },
         {
-          img: "https://picsum.photos/600/500"
+          img: "https://drive.google.com/uc?id=1nCTN9w16Q8E9CQiPO1TWU_IKxPYbodOj"
         },
         {
-          img: "https://picsum.photos/600/600"
+          img: "https://drive.google.com/uc?id=15zQsH2PaX9LM0oQtpvdtZWqjuklHLexb"
         },
         {
-          img: "https://picsum.photos/600/600"
+          img: "https://drive.google.com/uc?id=1rS5-iELIoEGl_5859IMgg2dpjny85gTj"
         },
         {
-          img: "https://picsum.photos/600/600"
+          img: "https://drive.google.com/uc?id=1Qeou_SfHO1UzroKGEjN8KpZwODnEqt9i"
         },
         {
-          img:"https://picsum.photos/600/600"
+          img:"https://drive.google.com/uc?id=1PH4qvvGYVpdJd4QB6lbnB2ACQVr2G7_M"
         },
         {
-          img:"https://picsum.photos/600/600"
+          img:"https://drive.google.com/uc?id=1Vlkp9qIUCnwhaT34Mv00fZXRIqLN-Nmq"
         },
         {
-          img:"https://picsum.photos/600/600"
+          img:"https://drive.google.com/uc?id=1MMjPWgUNsI4nbpnIyGntS6f1IJ_8Cgm8"
         },
         {
-          img:"https://picsum.photos/600/600"
+          img:"https://drive.google.com/uc?id=1BmToe2iWuY_8HGNaJ0LUtYPwXqEep8LG"
         },
         {
-          img:"https://picsum.photos/600/600"
+          img:"https://drive.google.com/uc?id=1Dc4nw7rmuQmbZfSfmVzjoJ9Ozp_TgHJm"
+        },
+        {
+          img:"https://drive.google.com/uc?id=1JAmjfJWyuG1P7UYkSWYK0i7MIHY76PWg"
         }
       ]
 

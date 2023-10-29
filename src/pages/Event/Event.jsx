@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 // import './Event.css';
-import axios from "axios";
+// import axios from "axios";
+import data from '../../data/events.json'
 
 const EventsPage = () => {
 
@@ -8,13 +9,16 @@ const EventsPage = () => {
   const image_url = useState(Events.image_url);
   const registration_URL = useState(Events.registration_URL);
   useEffect(() => {
-    axios.get('/events')
-      .then(res => {
-        setEvents(res.data);
-      })
-      .catch(err => {
-        console.log(err);
-      })
+    // axios.get('/events')
+    //   .then(res => {
+    //     setEvents(res.data);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   })
+
+    setEvents(data);
+
     }, []);
 
     return ( 
@@ -32,12 +36,12 @@ const EventsPage = () => {
                             <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
                             <div className="card__header-text">
                               <h3 className="card__Name">{Events.EventName}</h3>  
-                              <span className="card__Club">{Events.EventClub}</span>          
+                              <span className="card__Club">{Events.ClubName}</span>          
                               <span className="card__Time">{Events.EventTime}</span>
                             </div>
                           </div>
                           <div className="Button">
-                            <button className="Register_button"><a href={Events.EventLink} target="_blank">Register Now</a></button>
+                          <a href={Events.EventLink} rel="" target="_blank"><button className="Register_button">Register Now</button></a>
                           </div>
                       </div>
                     </span>      

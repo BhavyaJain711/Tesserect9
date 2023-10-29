@@ -139,4 +139,7 @@
     overflow: hidden;
     font-size: 2rem;
   }    
-  
+  .Register_button a{
+    text-decoration: none;
+    color: black;
+  }
