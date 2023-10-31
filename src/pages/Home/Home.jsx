@@ -4,7 +4,7 @@ import PopUp from "../../components/Popup/Popup";
 import Video from '../../components/Video/Video';
 import { Button } from 'react-bootstrap';
 import VideoConsent from '../../components/Video/VideoConsent';
-import Sponsers from '../Sponsers';
+import Sponsors from '../Sponsers';
 import Parallax from '../../components/Parallax/Parallax';
 
 function Home() {
@@ -47,6 +47,11 @@ function Home() {
         <PopUp func={toggleGallery} />
         <h1 id="events" style={{ margin: '4rem' }}>Events</h1>
         <Events />
+        <h1 id="sponsors" style={{ margin: '4rem' }}>Our Sponsors</h1>
+        <Sponsors />
+        <div style={{height:'5vh'}}>
+
+        </div>
       </>}
     </>
   )

@@ -26,7 +26,7 @@ function Navbar() {
           {/* <li className='nav-item'><a href='#edm'>EDM</a></li> */}
           <li className='nav-item' onClick={ToggleSwitch}><a href='./#gallery'>Gallery</a></li>
           <li className='nav-item' onClick={ToggleSwitch}><a href='./#events'>Events</a></li>
-          <li className='nav-item' onClick={ToggleSwitch}><a href='#'>Sponsorship</a></li>
+          <li className='nav-item' onClick={ToggleSwitch}><a href='./#sponsors'>Sponsors</a></li>
           {/* <li className='nav-item'><a href='./#about'>About</a></li> */}
         </ul>
       </div>

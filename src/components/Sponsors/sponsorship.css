@@ -1,7 +1,7 @@
 .sponsorship-container {
-  background-color: #000000;
+  background-color: inherit;
   padding: 20px;
-  border: 1px solid #0ecced;
+  /* border: 1px solid #0ecced; */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -31,15 +31,42 @@
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  transform: scale(0.9); 
+  /* animation: bounce 1.5s linear infinite; */
 }
 
 .sponsor-logo {
-  width: 75px;
+  width: 150px;
   height: auto;
   margin-right: 15px;
 }
 
 .sponsor-name {
   font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  transform: scale(0.9);
+  
 }
+.sponsor-name:hover{
+  color: #F58840;
+  transform: scale(1.05);
+  transition: 0.2s;
+  text-shadow: white;
+}
+
+.sponsor-logo:hover{
+  box-shadow: 0px px 15px rgb(7, 248, 248);;
+  transform: scaleX(1.15) scaleY(1.15);
+  transition: 0.3s;
+}
+
+/* @keyframes bounce {
+  0%, 100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+} */
+
 

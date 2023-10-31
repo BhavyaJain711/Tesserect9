@@ -3,56 +3,29 @@ import Sponsorship from '../components/Sponsors/Sponsorship.jsx'
 const Sponsers = () => {
     const sponsors = [
         {
-          name: "Company A",
-          logo: "companyA.png" 
+          name: "Renaissance, Gandhinagar",
+          logo: "./images/Renaissance-logo.png" 
         },
         {
-          name: "Company B",
-          logo: "companyB.png" 
+          name: "UnStop",
+          logo: "./images/unstop-logo.svg" 
         },
         {
-          name: "Company C",
-          logo: "companyC.png" 
-        },
-        {
-          name: "Company A",
-          logo: "companyA.png"
-        },
-        {
-          name: "Company B",
-          logo: "companyB.png" 
-        },
-        {
-          name: "Company C",
-          logo: "companyC.png" 
-        },
-        {
-          name: "Company A",
-          logo: "companyA.png" 
-        },
-        {
-          name: "Company B",
-          logo: "companyB.png" 
-        },
-        {
-          name: "Company C",
-          logo: "companyC.png" 
+          name: "Disha Consultancy",
+          logo: "./images/DC-logo.png" 
         }
       ];
     
       return (
-        <div className="App">
-          <header>
-            <h1>TESSARACT</h1>
-          </header>
+        <div>
           <main>
             <Sponsorship sponsors={sponsors} />
             
             
           </main>
-          <footer>
+          {/* <footer>
             <p>&copy; 2023 SnT</p>
-          </footer>
+          </footer> */}
         </div>
       );
 }
