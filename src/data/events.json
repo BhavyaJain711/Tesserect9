@@ -1,5 +1,13 @@
 [
   {
+    "ClubName": "SNT",
+    "EventName": "Tech Tank",
+    "EventLink": "https://docs.google.com/forms/d/e/1FAIpQLSd8P2vyV15vOX3YQFsEBkwz68x_t73pHHRUNSrSzApY-zYSVw/viewform?usp=sf_link",
+    "EventVenue": "C202",
+    "EventTime": "4 Nov 1 to 4 PM",
+    "EventPoster": "https://drive.google.com/uc?id=1gfCm13SIRx-pX4mMGZ6tbGZlKy2aZCZn"
+  },
+  {
     "ClubName": "VGA",
     "EventName": "Editing and Color grading workshop",
     "EventLink": "https://forms.gle/H9xCrJ9WPsywJKmW8",
@@ -237,7 +245,7 @@
     "EventLink": "https://forms.gle/wLjhcKM1saje9DX9A",
     "EventVenue": "",
     "EventTime": "",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=1xDYhROYc0c3vUY1eM9p8b3MXxeKvnnXv"
   },
   {
     "ClubName": "EnviroFreaks",
@@ -293,7 +301,7 @@
     "EventLink": "https://forms.gle/fLankTwhtPxHUPT98",
     "EventVenue": "",
     "EventTime": "",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=15az-MCachTaABQsq2D9qEpXDkmw4qQqb"
   },
   {
     "ClubName": "SOM -Society of Mathematics",
@@ -301,7 +309,7 @@
     "EventLink": "https://forms.gle/bBx2L86SSJ8h6UkaA",
     "EventVenue": "",
     "EventTime": "",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=15VyQ4H8u3dGLFem_P2HRQRMzTBsZd8i5"
   },
   {
     "ClubName": "SOM -Society of Mathematics",
@@ -309,11 +317,11 @@
     "EventLink": "https://forms.gle/k3wHDojZqsFJPQB99",
     "EventVenue": "",
     "EventTime": "",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=18MKrrpevGFfvfK1UceI4iNGtATYdbAeW"
   },
   {
     "ClubName": "NUCLEUS",
-    "EventName": "1. Physics Expo 3.0",
+    "EventName": "Physics Expo 3.0",
     "EventLink": "https://forms.gle/KSS2i8wJoCe8pEpr7",
     "EventVenue": "",
     "EventTime": "",
@@ -321,7 +329,7 @@
   },
   {
     "ClubName": "NUCLEUS",
-    "EventName": "2. Graphite Heat Workshop",
+    "EventName": "Graphite Heat Workshop",
     "EventLink": "https://forms.gle/Pn56JjjQH7chksBd7",
     "EventVenue": "",
     "EventTime": "",
@@ -329,27 +337,27 @@
   },
   {
     "ClubName": "Respawn",
-    "EventName": "1. Valorant Tournament",
+    "EventName": "Valorant Tournament",
     "EventLink": "https://forms.gle/SZAFiPsPHL5kxPop9",
     "EventVenue": "F block Labs",
     "EventTime": "2pm-6pm",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=1tzsOB5QTV1XLBvLRg7g19djtfdn51qtQ"
   },
   {
     "ClubName": "Respawn",
-    "EventName": "2. Unity workshop",
+    "EventName": "Unity workshop",
     "EventLink": "https://forms.gle/3LFQBs8w1eCijWoy9",
     "EventVenue": "",
     "EventTime": "10am-6pm",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=1_VDKwSQQ8j6WFf4fDMQKN6SksZHyIr2E"
   },
   {
     "ClubName": "Respawn",
-    "EventName": "3. Everybody Speaks and nobody Explodes",
+    "EventName": "Everybody Speaks and nobody Explodes",
     "EventLink": "https://forms.gle/a2uJSdDqJL19krrz8",
     "EventVenue": "D101",
     "EventTime": "11am-2pm",
-    "EventPoster": ""
+    "EventPoster": "https://drive.google.com/uc?id=1z-kSsIZqx71GxPgJ2705i4iiWuoEHO3t"
   },
   {
     "ClubName": "BRAHMAND",
@@ -388,7 +396,7 @@
     "EventName": "StartTower Challenge",
     "EventLink": "https://forms.gle/KSS2i8wJoCe8pEpr7",
     "EventVenue": "C003",
-    "EventTime": "2-6PM on 5th Nov",
+    "EventTime": "2-6PM on 5th Nov (date may change)",
     "EventPoster": "https://drive.google.com/uc?id=1p6LhwCfI4YCRqDeXeLaXmKkXD5S0Unh7"
   },
   {
@@ -407,4 +415,4 @@
     "EventTime": "5-7PM on 1st Nov",
     "EventPoster": "https://drive.google.com/uc?id=1p9sRcvSR8p9HHX27e34JlkOBAf4pis3H"
   }
-]
+ ]
